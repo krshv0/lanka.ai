@@ -1,0 +1,22 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "ai voice",
+      "intents": [
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "SpeakIntent",
+          "slots": [],
+          "samples": [
+            "say {text}",
+            "speak {text}"
+          ]
+        }
+      ],
+      "types": []
+    }
+  }
+}
